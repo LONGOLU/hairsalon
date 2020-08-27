@@ -433,3 +433,16 @@ color:rgb(126, 74, 87);
   }
 }
 
+@media (max-width: 650px) {
+  .full-bg {
+    max-width: 100%;
+  }
+
+  .nav-top-title h1 {
+    font-size: 70px;
+    letter-spacing: .25em;
+    word-spacing: 28px;
+    padding: 10px;
+  }
+}
+
