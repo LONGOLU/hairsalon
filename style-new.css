@@ -448,5 +448,9 @@ color:rgb(126, 74, 87);
   .nav-top {
     min-height: 50px;
   }
+
+  .nav-top-title {
+    min-height: 300px;
+  }
 }
 
