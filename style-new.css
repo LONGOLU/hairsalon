@@ -442,7 +442,11 @@ color:rgb(126, 74, 87);
     font-size: 70px;
     letter-spacing: .25em;
     word-spacing: 28px;
-    padding: 10px;
+    padding: 30px 10px;
+  }
+
+  .nav-top {
+    min-height: 50px;
   }
 }
 
