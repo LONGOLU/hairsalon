@@ -272,6 +272,8 @@ color: azure;
   padding: 20px;
   height: 350px;
   min-width: 250px;
+  border-radius:5px;
+
 }
 
 .height-large {
