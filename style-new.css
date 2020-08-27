@@ -1,0 +1,435 @@
+/* Home page */
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  height: 100%;
+}
+
+.nav-top {
+  background-color: whitesmoke; 
+  min-height: 80px;
+  color: rgb(126, 74, 87);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 28px;
+  letter-spacing: .15em;
+  word-spacing: 40px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.nav-top a {
+  color: rgb(126, 74, 87);
+}
+
+.menu-items {
+  text-align: center;
+}
+
+.menu-items li {
+  list-style-type: none;
+  display: inline;
+}
+
+.nav-top-title {
+  background-image: url("img/backgournd_flowers.jpg");
+  background-repeat: no-repeat;
+  background-position: 76% 25%;
+  min-height: 540px;
+  text-align: center;
+}
+
+.nav-top-title .col {
+  padding: 0;
+}
+
+.nav-top-title h1 {
+  font-size: 120px;
+  color:rgb(126, 74, 87);
+  letter-spacing: .25em;
+  word-spacing: 48px;
+  font-weight: bold;
+  background-color:rgba(192,192,192,0.4);
+  padding: 20px;
+}
+
+.header-nav {
+  padding-bottom:150px;
+  padding-top: 4px;
+  color: azure;
+  font-family: 'Cormorant Garamond', serif;
+  padding-left: 1100px;
+  font-size: 28px;
+  margin-right: 100px;
+  letter-spacing: .15em;
+  word-spacing: 40px;
+  position: absolute;
+  transform: translate(-30%, -30%);
+}
+
+
+
+.offerings {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0;
+  
+}
+
+
+.offerings img {
+  height: 210px;
+  width: 300px;
+  flex-direction: row;
+
+}
+
+.about_me {
+  font-size: 20px;
+  width: 945px;
+  height: 600px;
+  margin:20px;
+  line-height: 200%;
+  color:rgb(126, 74, 87);
+  /* background-image: url("img/salon.jpg"); */
+  background-position: center;
+  background-size: 945px;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  font-weight: lighter;
+}
+
+.about_me h2 {
+  text-align: left;
+  color:rgb(126, 74, 87);
+  
+}
+
+.background_salon_transbox {
+ 
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+
+.content {
+  width: 1400px;
+  margin-left: 600px;
+  min-height: 1000px ;
+}
+
+ .about_content{
+    height: 500px;
+    text-align: left; 
+   
+ }
+
+  
+.centered h1 {
+  font-size: 90px;
+  color:rgb(126, 74, 87);
+  letter-spacing: .25em;
+  word-spacing: 48px;
+  position: relative;
+  bottom: -80px;
+}
+
+
+
+
+
+
+
+h3    { 
+font-size:25px ;
+font-family: 'Cormorant Garamond', serif;
+text-align: center;
+align-content: center;
+color:rgb(126, 74, 87)
+}
+
+/*======HR++++++++++*/
+/* */
+
+.ruler {
+  width: 630px;
+  margin: 0 0 0 0px;
+  color:rgb(126, 74, 87);
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+
+  hr.style-eight {
+  width: 150% ;
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #660600;
+  color:rgb(126, 74, 87);
+  text-align: center;
+}
+   hr.style-eight:after {
+    content: "About Me";
+    /* content: "§"; */
+  display: inline-block; 
+  position: relative;
+  top: -0.7em;
+  font-size: 1.25em;
+  font-weight: lighter;
+  padding: 0 0.25em;
+  background: white; 
+  color:rgb(126, 74, 87);
+
+} 
+
+
+
+/*===== Serives page===== */
+.content{
+  width: 1400px;
+  margin-left: 600px;
+  min-height: 1500px;
+}
+
+.content_services {
+  margin-bottom: 100px;
+}
+
+.gallery-top-photos {
+  margin-top: 80px;
+}
+
+.gallery-top-photos .col {
+  margin-bottom: 40px;
+}
+
+.service-photos img,
+  .gallery-top-photos img {
+  height: 210px;
+  width: 280px;
+  opacity: 0.9;
+}
+
+.service-photos .col {
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.services h2, 
+   .content_gallery h2,
+   .contact-container h2 {
+  background-color: rgb(172, 126, 138);
+  color:rgb(244, 240, 241);
+  opacity: 0.5;
+  font-size: 40px;
+  margin-top: 40px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  letter-spacing: .10em;
+  text-align: center;
+}
+
+
+.content_gallery h2{
+  margin-bottom: 40px;
+}
+
+.gallery-before-after img {
+  margin-bottom: 70px;
+}
+
+.gallery-ba-left-margin {
+  margin-left: 30px;
+}
+
+.services {
+  font-size: 40px;
+  margin: 20px;
+  color:rgb(126, 74, 87)
+}
+
+.services ul li,
+  .services dl dd,
+  .services dl dt {
+  font-size: 18px;
+  color:rgb(126, 74, 87)
+  }
+
+.centered {
+position: absolute;
+left:50%;
+top: 30%;
+transform: translate(-50%, -50%);
+font-size:60px;
+color: azure;
+}
+
+
+
+.service-box  {
+  font-size: 3px;
+  background-color:rgb(255,240,245);
+  opacity: 0.7;  
+  margin-top: 25px;
+  padding: 20px;
+  height: 350px;
+  min-width: 250px;
+}
+
+.height-large {
+  height: 420px;
+  
+}
+
+.service-box  li {
+  list-style-type: none;
+}
+
+.service-box  h3 {
+  font-weight: bold;
+}
+
+.service-box dt {
+  padding-bottom: 10px;
+}
+
+
+/* Gallery page */
+
+.photos {
+  margin-bottom: 100px;
+}
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
+
+/* =======contact page============== */
+.services_contact{
+  display: inline-block;
+  font-size: 21px;
+  margin-top: 10px;
+  color:rgb(126, 74, 87)
+  
+}
+.contact {
+  font-size: 18px;
+  color:rgb(126, 74, 87)
+}
+
+.address, .hours {
+  margin-bottom: 50px;
+  color:rgb(126, 74, 87)
+}
+
+.adress {
+  width: 400px;
+  float: left;
+  color:rgb(126, 74, 87)
+}
+
+.services_hours ul li{
+  list-style-type: none;
+  color:rgb(126, 74, 87)
+} 
+
+
+.map  {
+  margin: 60px auto 20px 300px; 
+  font-size: 20px;
+  width: 300px;   
+  height: 200px;
+  display: inline-block;
+}
+
+.contact-container .col.margin-top {
+    padding-top: 30px;
+}
+
+.map h3{
+  font-size:25px;
+  
+  
+}
+.container contact-container , .row , 
+.col tr th{
+color:rgb(126, 74, 87);
+}
+.contact a {
+  color:black;
+  font-family: 'Cormorant Garamond', serif;
+  color:rgb(126, 74, 87)
+  }
+
+.contact-container .col {
+  margin: 50px 0;
+}
+
+/* .contact a:visited {
+  color: grey;
+  }
+
+.contact  a:hover {
+  color: blueviolet;
+  } */
+
+.hero_contact      {
+ width: 5000px;
+ height: 00px;
+}
+
+.header-nav_contact  {
+  top: 8%;
+  color: blue;
+  font-family: 'Cormorant Garamond', serif;
+  padding-left: 1200px;
+  padding-right: 10px;
+  font-size: 25px;
+  margin-right: 100px;
+  letter-spacing: .15em;
+  word-spacing: 20px;
+  position: absolute;
+  transform: translate(-30%, -30%);
+    
+}
+
+.covid-19{
+  font-size: 24px;
+  font-weight: lighter;
+  
+}
+
+/*===========Footer======= */
+
+
+.footer-wrap {
+  background-color: rgb(251,227,235);
+  padding: 110px 0 80px 0;
+  font-size: 25px;
+  letter-spacing: .15em;
+  word-spacing: 40px;
+}
+
+
+.logo{
+  width: 60px;
+}
+
+@media (min-width: 450px) {
+  .full-bg {
+    max-width: 100%;
+  }
+}
+
