@@ -273,9 +273,26 @@ hr.style-eight:after {
 .services ul li,
   .services dl dd,
   .services dl dt {
-  font-size: 18px;
-  color:rgb(126, 74, 87)
-  }
+  font-size: 22px;
+  color:rgb(126, 74, 87);
+
+  line-height: 1em;
+  padding-bottom: 20px;
+}
+
+.services dl dd {
+  line-height: 1.4em;
+}
+
+
+.services li b {
+  padding-left: 6px;
+}
+
+.services li span {
+  font-size: 16px;
+}
+  
 
 .centered {
 position: absolute;
@@ -294,16 +311,10 @@ color: azure;
   opacity: 0.7;  
   margin-top: 25px;
   padding: 20px;
-  height: 350px;
-  min-width: 250px;
   border-radius: 25px;
 
 }
 
-.height-large {
-  height: 420px;
-  
-}
 
 .service-box  li {
   list-style-type: none;
@@ -311,6 +322,7 @@ color: azure;
 
 .service-box  h3 {
   font-weight: bold;
+  padding-bottom: 12px;
 }
 
 .service-box dt {
