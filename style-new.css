@@ -82,10 +82,8 @@ body {
 }
 
 .about_me {
-  font-size: 20px;
-  width: 945px;
-  height: 600px;
-  margin:20px;
+  font-size: 25px;
+  margin:40px 20px 20px 20px;
   line-height: 200%;
   color:rgb(126, 74, 87);
   background-position: center;
@@ -95,9 +93,12 @@ body {
   font-weight: lighter;
 }
 
-.about_me h2 {
-  text-align: left;
-  color:rgb(126, 74, 87);
+.about_me p {
+  padding-bottom: 12px;
+}
+
+.services .about_me h2 {
+  margin-bottom: 20px;
   
 }
 
@@ -154,14 +155,14 @@ color:rgb(126, 74, 87);
 
 .ruler {
   width: 630px;
-  margin: 0 0 0 0px;
+  margin: 0 0 0px 0px;
   color:rgb(126, 74, 87);
-  margin-bottom: 80px;
+  margin-bottom: 20px;
   margin-top: 50px;
 }
 
   hr.style-eight {
-  width: 150% ;
+  width: 168% ;
   overflow: visible; /* For IE */
   padding: 0;
   border: none;
