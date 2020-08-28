@@ -193,6 +193,8 @@ color:rgb(126, 74, 87)
 
 .content_home {
   margin-bottom: 100px;
+  position: relative;
+  margin-left: 230px;
 }
 
 
@@ -235,6 +237,9 @@ color:rgb(126, 74, 87)
   letter-spacing: .10em;
   text-align: center;
 }
+
+
+
 
 
 
@@ -386,6 +391,13 @@ color: azure;
 .col tr th{
 color:rgb(126, 74, 87);
 }
+
+.container_home contact-container , .row , 
+.col tr th{
+color:rgb(126, 74, 87);
+}
+
+
 .contact a {
   color:black;
   font-family: 'Cormorant Garamond', serif;
