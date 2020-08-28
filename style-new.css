@@ -367,24 +367,27 @@ color: azure;
 
 
 .contact {
-  font-size: 18px;
+  font-size: 22px;
   color:rgb(126, 74, 87)
 }
 
 .address, .hours {
   margin-bottom: 50px;
-  color:rgb(126, 74, 87)
+  color:rgb(126, 74, 87);
+  font-size: 22px;
 }
 
 .adress {
   width: 400px;
   float: left;
-  color:rgb(126, 74, 87)
+  color:rgb(126, 74, 87);
+  font-size: 22px;
 }
 
 .services_hours ul li{
   list-style-type: none;
-  color:rgb(126, 74, 87)
+  color:rgb(126, 74, 87);
+  font-size: 22px;
 } 
 
 
