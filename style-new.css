@@ -43,7 +43,7 @@ body {
 }
 
 .nav-top-title h1 {
-  font-size: 120px;
+  font-size: 90px;
   color:rgb(126, 74, 87);
   letter-spacing: .25em;
   word-spacing: 48px;
@@ -136,8 +136,6 @@ body {
 
 
 
-
-
 h3    { 
 font-size:25px ;
 font-family: 'Cormorant Garamond', serif;
@@ -193,6 +191,14 @@ color:rgb(126, 74, 87)
   margin-bottom: 100px;
 }
 
+.content_home {
+  margin-bottom: 100px;
+}
+
+
+
+
+
 .gallery-top-photos {
   margin-top: 80px;
 }
@@ -213,6 +219,9 @@ color:rgb(126, 74, 87)
   margin-top: 60px;
 }
 
+
+
+
 .services h2, 
    .content_gallery h2,
    .contact-container h2 {
@@ -226,6 +235,10 @@ color:rgb(126, 74, 87)
   letter-spacing: .10em;
   text-align: center;
 }
+
+
+
+
 
 
 .content_gallery h2{
@@ -326,6 +339,10 @@ color: azure;
   color:rgb(126, 74, 87)
   
 }
+
+
+
+
 .contact {
   font-size: 18px;
   color:rgb(126, 74, 87)
