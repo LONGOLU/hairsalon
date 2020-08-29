@@ -184,7 +184,7 @@ hr.style-eight:after {
   display: inline-block; 
   position: relative;
   top: -0.7em;
-  font-size: 1.25em;
+  font-size: 1.30em;
   font-weight: lighter;
   padding: 0 0.25em;
   background: white; 
@@ -459,7 +459,7 @@ color:rgb(126, 74, 87);
   
 }
 
-.menu-items-socila {
+.menu-items-social {
   text-align: center;
 }
 
@@ -467,6 +467,7 @@ color:rgb(126, 74, 87);
   list-style-type: none;
   display: inline;
 }
+
 
 
 
