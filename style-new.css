@@ -110,7 +110,7 @@ body {
 
 .service-photos .home-img-bottom img {
   border-radius: 5px;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .service-photos  .home-img-bottom  h3 {
@@ -124,10 +124,7 @@ body {
 }
 
 
-.service-photos  .home-img-bottom  .white h3 {
-  background-color:rgb(230, 188, 195) ;
 
-}
 .content {
   width: 1400px;
   margin-left: 600px;
