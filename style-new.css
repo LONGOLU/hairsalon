@@ -32,6 +32,9 @@ body {
   display: inline;
 }
 
+
+
+
 .nav-top-title {
   background-image: url("img/backgournd_flowers.jpg");
   background-repeat: no-repeat;
@@ -455,6 +458,19 @@ color:rgb(126, 74, 87);
   font-weight: lighter;
   
 }
+
+.menu-items-socila {
+  text-align: center;
+}
+
+.menu-items-social li {
+  list-style-type: none;
+  display: inline;
+}
+
+
+
+
 
 /*===========Footer======= */
 
