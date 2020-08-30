@@ -519,5 +519,10 @@ color:rgb(126, 74, 87);
 }
 
 
+@media (max-width: 1000px) {
+  .ruler {
+    display: none;
+  }
+}
 
 
