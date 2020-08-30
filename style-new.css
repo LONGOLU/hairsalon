@@ -1,5 +1,5 @@
 /* 
-v1.1.05
+v1.1.06
 Home page 
 */
 
@@ -515,6 +515,11 @@ color:rgb(126, 74, 87);
 
   .ruler {
     display: none;
+  }
+
+  .gallery-before-after img {
+    width: 120px;
+    height: 120px;
   }
 }
 
