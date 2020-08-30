@@ -388,14 +388,14 @@ color: azure;
   font-size: 22px;
 }
 
-.service-hours td,
-  .service-hours th {
+.contact-container td,
+  .contact-container th {
     color:rgb(126, 74, 87);
     font-size: 22px;
     padding-bottom: 12px;
 }
 
-.service-hours th {
+.contact-container th {
   font-weight: bold;
   padding-right: 20px;
 }
