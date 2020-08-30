@@ -1,5 +1,5 @@
 /* 
-v1.1.09
+v1.1.11
 Home page 
 */
 
@@ -255,6 +255,12 @@ hr.style-eight:after {
 }
 
 .gallery-before-after img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.gallery-before-after img {
   margin-bottom: 70px;
 }
 
@@ -505,6 +511,15 @@ color: azure;
 
   .ruler {
     display: none;
+  }
+
+
+  .gallery-ba-left-margin {
+    margin-left: 0;
+  }
+
+  .gallery-before-after col {
+    min-width: 250px;
   }
 
   .gallery-before-after img {
