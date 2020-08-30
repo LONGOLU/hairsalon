@@ -1,11 +1,15 @@
 /* 
-v1.1.06
+v1.1.08
 Home page 
 */
 
 body {
   font-family: 'Cormorant Garamond', serif;
   height: 100%;
+}
+
+h3 {
+  font-weight: bold;
 }
 
 .nav-top {
@@ -246,13 +250,6 @@ hr.style-eight:after {
 }
 
 
-
-
-
-
-
-
-
 .content_gallery h2{
   margin-bottom: 40px;
 }
@@ -385,11 +382,25 @@ color: azure;
   font-size: 22px;
 }
 
-.services_hours ul li{
-  list-style-type: none;
-  color:rgb(126, 74, 87);
+
+.contact-container .col {
+  margin: 20px 0;
   font-size: 22px;
-} 
+}
+
+.service-hours td,
+  .service-hours th {
+    color:rgb(126, 74, 87);
+    font-size: 22px;
+    padding-bottom: 12px;
+}
+
+.service-hours th {
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+
 
 
 .map  {
@@ -400,36 +411,15 @@ color: azure;
   display: inline-block;
 }
 
-.contact-container .col.margin-top {
-    padding-top: 30px;
-    font-size: 22px;
-}
-
 .map h3{
   font-size:25px;
   
-  
 }
-.container contact-container , .row , 
-.col tr th{
-color:rgb(126, 74, 87);
-font-size: 22px;
-}
-
-.container_home contact-container , .row , 
-.col tr th{
-color:rgb(126, 74, 87);
-}
-
 
 .contact a {
   color:black;
   color:rgb(126, 74, 87)
   }
-
-.contact-container .col {
-  margin: 50px 0;
-}
 
 
 .hero_contact      {
