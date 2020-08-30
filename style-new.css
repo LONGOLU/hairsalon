@@ -1,5 +1,5 @@
 /* 
-v1.1.11
+v1.1.12
 Home page 
 */
 
@@ -59,6 +59,7 @@ h3 {
   font-weight: bold;
   background-color:rgba(192,192,192,0.4);
   padding: 20px;
+  margin-bottom: 0;
 }
 
 .header-nav {
@@ -215,11 +216,13 @@ hr.style-eight:after {
 
 .gallery-top-photos {
   margin-top: 80px;
+  text-align: center;
 }
 
 .gallery-top-photos .col {
   margin-bottom: 40px;
 }
+
 
 .service-photos img,
   .gallery-top-photos img {
@@ -257,6 +260,12 @@ hr.style-eight:after {
 .gallery-before-after img {
   width: 200px;
   height: 200px;
+}
+
+
+.gallery-before-after .col {
+  text-align: center;
+  min-width: 450px;
 }
 
 
@@ -476,6 +485,7 @@ color: azure;
   font-size: 25px;
   letter-spacing: .15em;
   word-spacing: 40px;
+  text-align: center;
 }
 
 
@@ -518,8 +528,9 @@ color: azure;
     margin-left: 0;
   }
 
-  .gallery-before-after col {
-    min-width: 250px;
+  .gallery-before-after .col {
+    min-width: 300px;
+    text-align: center;
   }
 
   .gallery-before-after img {
@@ -532,6 +543,10 @@ color: azure;
 @media (max-width: 1000px) {
   .ruler {
     display: none;
+  }
+
+  .nav-top-title {
+    min-height: 200px;
   }
 }
 
