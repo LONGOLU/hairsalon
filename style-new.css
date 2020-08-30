@@ -1,5 +1,5 @@
 /* 
-v1.1.14
+v1.1.15
 Home page 
 */
 
@@ -549,10 +549,7 @@ color: azure;
     height: 120px;
   }
 
-  .service-photos .col {
-    margin-bottom: 10px;
-    margin-top: 20px;
-  }
+
 }
 
 
@@ -563,6 +560,11 @@ color: azure;
 
   .nav-top-title {
     min-height: 200px;
+  }
+
+  .service-photos .col {
+    margin-bottom: 10px;
+    margin-top: 20px;
   }
 }
 
