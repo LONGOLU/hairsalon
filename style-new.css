@@ -1,5 +1,5 @@
 /* 
-v1.1.17
+v1.1.18
 Home page 
 */
 
@@ -547,6 +547,10 @@ color: azure;
   .gallery-before-after img {
     width: 120px;
     height: 120px;
+  }
+
+  .social div {
+    max-width: 40px;
   }
 
 
