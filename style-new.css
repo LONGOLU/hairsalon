@@ -293,7 +293,6 @@ hr.style-eight:after {
   .services dl dt {
   font-size: 22px;
   color:rgb(126, 74, 87);
-
   line-height: 1em;
   padding-bottom: 20px;
 }
@@ -449,7 +448,7 @@ color: azure;
 
 .header-nav_contact  {
   top: 8%;
-  color: blue;
+  color: rgb(126, 74, 87);
   padding-left: 1200px;
   padding-right: 10px;
   font-size: 25px;
@@ -470,11 +469,13 @@ color: azure;
 .menu-items-social,
   .menu-items-social a {
   text-align: center;
+  
 }
 
 .menu-items-social li {
   list-style-type: none;
   display: inline;
+  
 }
 
 
@@ -492,6 +493,7 @@ color: azure;
   letter-spacing: .15em;
   word-spacing: 40px;
   text-align: center;
+  color: rgb(126, 74, 87);
 }
 
 .footer-wrap ul,
